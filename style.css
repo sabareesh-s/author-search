@@ -8,21 +8,17 @@
 
 .headtext {
   color: #000000;
-  
+  padding-top: 15px;
+  padding-bottom: 0px;
   font-size: 25px;
-  line-height: 10px;
-  margin: 0 0 30px;
+  line-height: 52px;
+  margin: 0 0 3px;
   text-align: center;
 }
 
-.header {
-  padding: 44px;
-  padding-bottom: 0px;
-}
 
-.footer {
-  padding: 44px;
-}
+
+
 
 .container {
   padding-bottom: 70px;
@@ -72,16 +68,19 @@
   background: #fff1f1;
 }
 .searcharea {
-  width: 699px;
+ margin: auto;
+ width: 700PX;
+ position: sticky;
   border: 2px solid #aaa;
   border-radius: 0px;
-  margin: 8px 2px;
   outline: none;
   padding: 16px;
   box-sizing: border-box;
-  margin-left: 47px;
   
+  align-items: center;
+  justify-content: center;
   background-color: #E3E2E3;
+
 }
 
 .data {
