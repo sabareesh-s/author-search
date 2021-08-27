@@ -7,4 +7,4 @@
 
 Enter an Authors name in the Search Bar and press the enter key to bring up the author names. The webpage will then show you 12 most relevant author names which is set up in an accordion to browse easily
 
-![screenshot](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![screenshot](https://github.com/sabareesh-s/author-search/blob/main/screenshot.PNG)
