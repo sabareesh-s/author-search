@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    
+    <title>Author Search App</title>
+</head>
+
+<body>
+    
+    <div class="header">
+        <div class="headtext" >
+            <h1 >
+                Book World
+            </h1>
+        </div>
+            <div >
+                <input class="searcharea" id="input" placeholder="Enter a name to find matching authors">
+                <button class="btn" onClick="getBooks()">Search</button>
+            </div> 
+    </div>  
+   
+
+    
+    <div >
+               
+
+     
+                 <div class="container">
+                     <div >
+                        <div id="output"> </div>
+                
+                     </div>
+                 </div>
+    </div>
+    <footer class="footer">
+        <p>This website uses OpenLibrary API to get data of Authors.</p>
+        <a href="https://openlibrary.org/developers/api">OpenLibrary API Documentation</a>
+      </footer>
+
+
+        <script src="index.js"></script>
+</body>
+
+</html>
